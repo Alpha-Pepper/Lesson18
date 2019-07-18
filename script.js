@@ -2,7 +2,7 @@
 
 let a;
 
-if(a == 1) {
+if(a == '1') {
     console.log('Верно');
 }
 else
