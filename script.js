@@ -2,7 +2,7 @@
 
 let a;
 
-if(a == '1') {
+if(a == '1' && a == 1){
     console.log('Верно');
 }
 else
@@ -39,19 +39,19 @@ else{
 
 let month = prompt('Месяц?');
 
-if( month <= 3 ){
-    console.log('Весна');
-}
-else if( month <= 6 ){
-    console.log('Лето');
-}
-else if( month <= 9 ){
-    console.log('Осень');
-}
-else if( month <= 12 ){
+if(month >= 12 && month > 0 && month <= 2  ){
     console.log('Зима');
 }
+else if(month >=3 && month <= 5 ){
+    console.log('Весна');
+}
+else if(month >= 6 && month <= 8 ){
+    console.log('Лето');
+}
+else if(month >= 9 && month <= 11 ){
+    console.log('Осень');
+}
 
-for ( let x = 2; x <= 100 ; x +=2 ){
+for ( let x = 0; x <= 100 ; x +=2 ){
     console.log(x);
 }
